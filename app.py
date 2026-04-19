@@ -27,7 +27,8 @@ generate = st.button("Generate Article", type="primary")
 if generate and topic:
 
     # Set API keys
-    os.environ["SERPER_API_KEY"] = "f32b6059f1d20a7120747f48eccdb5be2db05ead"
+    os.environ["SERPER_API_KEY"] = st.secrets["SERPER_API_KEY"]
+    os.environ["ANTHROPIC_API_KEY"] = st.secrets["ANTHROPIC_API_KEY"]
     os.environ["OPENAI_API_KEY"] = "fake-key"
     os.environ["OPENAI_MODEL_NAME"] = "anthropic/claude-sonnet-4-6"
 
