@@ -1,4 +1,5 @@
-anthropic
-crewai
-crewai-tools
-streamlit
+anthropic==0.40.0
+crewai==0.11.2
+crewai-tools==0.0.1
+streamlit==1.40.0
+ddgs==6.3.7
