@@ -1,0 +1,4 @@
+anthropic
+crewai
+crewai-tools
+streamlit
